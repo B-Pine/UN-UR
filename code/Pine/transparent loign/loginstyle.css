@@ -1,0 +1,81 @@
+body {
+    background-image: url(image/pexels-s-migaj-747964.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    font-family: arial;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.left-section {
+    margin-right: 15px;
+}
+
+
+.middle-section {
+    margin-right: 15px;
+    padding-bottom: 100px;
+    flex: 1;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    box-shadow: 2px 4px 16px 4px;
+   
+}
+
+.header {
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.in-format input {
+    display: block;
+    margin-bottom: 25px;
+    padding: 15px 63px 15px 18px;
+    font-size: 15px;
+    border: 2px solid rgba(37, 34, 34, 0.368);
+    border-radius: 4px;
+    background: none;
+    color: whitesmoke
+}
+
+.in-format input::placeholder {
+    color: black
+}
+
+.in-format button {
+    padding: 10px 113px;
+    background-color: rgb(42, 118, 172);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+
+}
+
+.in-format button:hover {
+    background-color: rgba(42, 118, 172, 0.8);
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.in-format p {
+    transition: color 0.5s;
+}
+
+.in-format p:hover {
+    cursor: pointer;
+    color: rgb(53, 117, 151);
+}

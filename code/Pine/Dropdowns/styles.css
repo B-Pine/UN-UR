@@ -1,0 +1,30 @@
+body {
+    padding-bottom: 100em;
+}
+
+.side-nav-header {
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-height: 70px;
+
+}
+
+
+.humberg-menu {
+    height: 20px;
+    margin: 15px;
+    cursor: pointer;
+
+}
+
+.menus {
+    position: absolute;
+   opacity: 0;
+} 
+
+.menus .humberg-menu:hover {
+    opacity: 1;
+}

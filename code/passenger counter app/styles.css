@@ -1,0 +1,43 @@
+body {
+    font-family: arial;
+    background-image: url(images/pexels-s-migaj-747964.jpg);
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+#content {
+    display: block;
+    text-align: center;
+    margin: 10% auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#entry, #history{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#content button {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    margin: 10% auto;
+}
+
+#saveBtn {
+    padding: 14px 82px;
+    background-color: rgb(12, 107, 55);
+}
+
+#incrementBtn {
+    padding: 14px 50px;
+    background-color: rgb(114, 14, 7);
+  
+   
+}
+

@@ -1,0 +1,46 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1px;
+    row-gap: 40px;
+    margin-bottom: 35px;
+}
+
+.product-preview {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    
+}
+
+.product-profile {
+    width: 100%;
+}
+
+.product-info p{
+    font-size: 14px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.product-info button {
+    border: none;
+    background-color: rgba(52, 163, 70, 0.418);
+    border: 1px solid rgba(52, 163, 70, 0.582);
+    border-radius: 16px;
+    padding: 8px 12px;
+    cursor: pointer;
+    
+}
+
+.product-info button:hover {
+    background-color: rgba(52, 163, 70, 0.76);
+    color: rgba(0, 0, 0, 0.726);
+    font-weight: bold;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+

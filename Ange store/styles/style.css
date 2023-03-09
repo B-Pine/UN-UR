@@ -1,0 +1,168 @@
+body {
+    padding-top: 80px;
+    font-family: arial;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 650px) {
+    .product-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+ 
+@media (min-width: 651px) and (max-width: 949px) {
+    .product-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 950px) {
+    .product-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 510px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.tsap-logo {
+    width: 40px;
+    padding: 18px;
+
+}
+
+.header {
+    background-image: url(../images/shoe1.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: center;
+    
+    border-bottom: 1px solid rgba(109, 107, 107, 0.466);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.logo-panel {
+    width: 80px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.logo-image {
+    width: 75px;
+}
+
+.motto-panel {
+    flex: 1;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 15px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.motto {
+    color: rgb(2, 39, 2);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.trader-info {
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.address {
+    font-size: 15px;
+    padding-left: 2px;
+    padding-top: 5px;
+    color: rgb(2, 39, 2);
+    
+}
+
+.navigation-bar {
+    padding: 2px 3px 2px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.intro {
+    flex: 1;
+    padding-top: 10px;
+    color: rgb(2, 39, 2);
+    font-size: 15px;
+}
+.home-btn, .home-btn1 {
+    flex: 1;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 6px 10px;
+    color: rgb(2, 39, 2);
+    margin-right: 5px;
+    font-weight: 600;
+    transition: color 0.5s;
+}
+
+.home-btn {
+  margin-right: 20px;
+}
+
+.home-btn:hover, .home-btn1:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(54, 179, 74);
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 40px 40px;
+    line-height: 25px;
+
+}
+
+/*about stlyes are bellow: */
+
+.biography-content {
+    padding: 40px 15px 190px 15px;
+    text-align: center;
+    
+}
+
+
+
+
+.about-profile {
+    width: 200px;
+    border-radius: 150px;
+    margin-bottom: 14px;
+}
+
